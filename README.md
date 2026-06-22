@@ -7,7 +7,7 @@ Inspect, manage, debug, and run commands on connected Android devices and emulat
 
 ## Demo
 
-![ADB MCP in action — capture device screens, view logs, query SQLite databases, and manage apps](assets/demo.png)
+<video src="assets/Demo.mp4" width="100%" controls></video>
 
 ## Supported Features
 
