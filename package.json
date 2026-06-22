@@ -1,0 +1,44 @@
+{
+  "name": "@abhinavyadav/adb-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Android Debug Bridge (ADB) — manage connected devices, run shell commands, view logcats, query SQLite databases and more.",
+  "main": "dist/index.js",
+  "bin": {
+    "adb-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "swc src -d dist --strip-leading-paths",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "adb",
+    "android",
+    "debug",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Abhinav Yadav",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.8.1",
+    "@swc/core": "^1.15.41",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}

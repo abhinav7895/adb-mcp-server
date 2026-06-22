@@ -1,0 +1,13 @@
+# Source TypeScript files
+src/
+
+# Config files
+tsconfig.json
+.swcrc
+
+# Dev & misc
+.env
+.env.*
+*.log
+.DS_Store
+node_modules/
