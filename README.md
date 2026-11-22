@@ -1,6 +1,5 @@
 # ADB MCP Server
 
-[![npm version](https://img.shields.io/npm/v/adb-mcp-server.svg)](https://www.npmjs.com/package/adb-mcp-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Inspect, manage, debug, and run commands on connected Android devices and emulators — through natural language.
